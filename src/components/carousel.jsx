@@ -32,7 +32,7 @@ export const Carousel = ({ pictures }) => {
   return (
       <div className="grid grid-cols-1 relative overflow-hidden slideshow-container rounded-lg h-[255px] lg:h-[415px]">
           <div className="flex transition-all duration-300" style={{ transform: `translateX(-${slideId * imgSize()}px)` }}>
-            { pictures?.map((picture) => < img className="rounded-lg object-cover" src={picture} alt={picture} key={picture}/>) }
+            { pictures?.map((picture) => < img className="rounded-lg object-cover" src={ picture } alt={ picture } key={ picture }/>) }
           </div>
           <div className="flex justify-between w-full absolute top-2/4 px-1">
               <img src={ arrowLeft } className="w-6 lg:w-24" alt="back" onClick={ onPrev }/>

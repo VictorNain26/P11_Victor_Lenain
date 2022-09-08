@@ -36,11 +36,11 @@ export const Housing = () => {
 
         <div className="flex justify-between items-center w-full mb-4 lg:flex-col-reverse lg:items-end">
           <div className="flex">
-            <Rating stars={housing.rating} />
+            <Rating stars={ housing.rating } />
           </div>
           <div className="flex items-center">
             <p className="text-right mr-3 break-normal w-12 lg:text-lg lg:mr-10">{ housing.host?.name }</p>
-            <img src={housing.host?.picture} alt="host" className="rounded-full w-8 lg:w-16" />
+            <img src={ housing.host?.picture } alt="host" className="rounded-full w-8 lg:w-16" />
           </div>
         </div>
       </div>
