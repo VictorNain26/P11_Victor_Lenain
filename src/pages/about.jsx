@@ -4,7 +4,7 @@ import aboutImage from "../assets/about_image.png";
 export const About = () => {
   return (
     <>
-      <img src={ aboutImage } alt="About" className="brightness-75 h-56 object-cover rounded-3xl w-full" />
+      <img src={ aboutImage } alt="About" className="brightness-75 h-56 object-cover rounded-xl lg:rounded-3xl w-full" />
       <div className="mt-8 lg:px-36">
         <Accordion title={"Fiabilité"} content={"Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes."} />
         <Accordion title={"Respect"} content={"La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme."} />

@@ -6,13 +6,14 @@ export const Home = () => {
 
   return (
     <div className="flex flex-col">
-      <div className="relative py-14 pl-4 lg:py-24 lg:rounded-3xl">
+      <div className="relative py-14 pl-4 lg:py-24">
         <div className="
           absolute
           top-0
           left-0
           brightness-75
           rounded-xl
+          lg:rounded-3xl
           bg-home_background
           bg-no-repeat
           bg-cover
