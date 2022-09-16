@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/P11_Victor_Lenain/static/css/main.b32e5754.css",
-    "main.js": "/P11_Victor_Lenain/static/js/main.ee56671e.js",
+    "main.css": "/P11_Victor_Lenain/static/css/main.1b86f86e.css",
+    "main.js": "/P11_Victor_Lenain/static/js/main.8e06f516.js",
     "static/media/about_image.png": "/P11_Victor_Lenain/static/media/about_image.702224cfb118b0639d4b.png",
     "static/media/home_image.png": "/P11_Victor_Lenain/static/media/home_image.6bf920f9e3df10278ff8.png",
     "index.html": "/P11_Victor_Lenain/index.html",
@@ -9,11 +9,11 @@
     "static/media/arrow_left.svg": "/P11_Victor_Lenain/static/media/arrow_left.3529f3989e39b758930113b6f7a3d1d4.svg",
     "static/media/arrow_right.svg": "/P11_Victor_Lenain/static/media/arrow_right.20f8ff01b05f9ea0cf55933722f7806c.svg",
     "static/media/filled_star.svg": "/P11_Victor_Lenain/static/media/filled_star.a21f8abfc51a23975832b769119429bd.svg",
-    "main.b32e5754.css.map": "/P11_Victor_Lenain/static/css/main.b32e5754.css.map",
-    "main.ee56671e.js.map": "/P11_Victor_Lenain/static/js/main.ee56671e.js.map"
+    "main.1b86f86e.css.map": "/P11_Victor_Lenain/static/css/main.1b86f86e.css.map",
+    "main.8e06f516.js.map": "/P11_Victor_Lenain/static/js/main.8e06f516.js.map"
   },
   "entrypoints": [
-    "static/css/main.b32e5754.css",
-    "static/js/main.ee56671e.js"
+    "static/css/main.1b86f86e.css",
+    "static/js/main.8e06f516.js"
   ]
 }
