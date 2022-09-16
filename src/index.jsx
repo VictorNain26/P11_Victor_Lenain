@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <main className=" min-h-screen px-5 pt-5 lg:px-24 lg:pt-10">
+    <main className="min-h-screen px-5 pt-5 lg:px-24 lg:pt-10">
       <BrowserRouter>
         <Header />
         <Router />

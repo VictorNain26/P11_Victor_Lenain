@@ -29,7 +29,7 @@ export const Housing = () => {
         <div className="flex flex-col">
           <h1 className="text-lg mb-1 lg:text-4xl">{ housing.title }</h1>
           <h2 className="text-sm mb-3 lg:text-lg">{ housing.location }</h2>
-          <div className="grid grid-cols-3 gap-2 mb-6">
+          <div className="flex mb-6">
             { housing.tags?.map((tag, id) => ( <Tag title={ tag } key={ id } /> )) }
           </div>
         </div>
